@@ -81,7 +81,7 @@ class Slackwolf
             'status'    => StatusCommand::class,
         //  'weather'   => WeatherCommand::class,
         ];
-        $commandBindings['bludgeon'] = $commandBindings['kill'];
+        $commandBindings['bludgeon'] = $commandBindings['vote'];
 
         /*
          * Create the game manager
